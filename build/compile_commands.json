@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/build",
+  "command": "/usr/bin/c++  -I/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/output_executable.dir/src/main.cpp.o -c /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/main.cpp",
+  "file": "/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/main.cpp",
+  "output": "CMakeFiles/output_executable.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/build",
+  "command": "/usr/bin/c++  -I/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/output_executable.dir/src/pipeline_ops.cpp.o -c /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/pipeline_ops.cpp",
+  "file": "/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/pipeline_ops.cpp",
+  "output": "CMakeFiles/output_executable.dir/src/pipeline_ops.cpp.o"
+},
+{
+  "directory": "/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/build",
+  "command": "/usr/bin/c++  -I/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/include -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/output_executable.dir/src/benchmark.cpp.o -c /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/benchmark.cpp",
+  "file": "/home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/benchmark.cpp",
+  "output": "CMakeFiles/output_executable.dir/src/benchmark.cpp.o"
+}
+]
