@@ -231,7 +231,6 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o: /home/username9098/Desktop
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
 CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/main.cpp \
-  /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/include/benchmark.hpp \
   /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/include/num_types.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
@@ -316,11 +315,16 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/16/algorithm \
   /usr/include/c++/16/backward/binders.h \
   /usr/include/c++/16/bit \
+  /usr/include/c++/16/bits/algorithmfwd.h \
   /usr/include/c++/16/bits/alloc_traits.h \
   /usr/include/c++/16/bits/allocator.h \
+  /usr/include/c++/16/bits/basic_ios.h \
+  /usr/include/c++/16/bits/basic_ios.tcc \
   /usr/include/c++/16/bits/basic_string.h \
   /usr/include/c++/16/bits/basic_string.tcc \
   /usr/include/c++/16/bits/char_traits.h \
@@ -338,8 +342,11 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/c++/16/bits/hash_bytes.h \
   /usr/include/c++/16/bits/invoke.h \
   /usr/include/c++/16/bits/ios_base.h \
+  /usr/include/c++/16/bits/istream.tcc \
   /usr/include/c++/16/bits/locale_classes.h \
   /usr/include/c++/16/bits/locale_classes.tcc \
+  /usr/include/c++/16/bits/locale_facets.h \
+  /usr/include/c++/16/bits/locale_facets.tcc \
   /usr/include/c++/16/bits/localefwd.h \
   /usr/include/c++/16/bits/memory_resource.h \
   /usr/include/c++/16/bits/memoryfwd.h \
@@ -348,7 +355,10 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/c++/16/bits/new_allocator.h \
   /usr/include/c++/16/bits/new_except.h \
   /usr/include/c++/16/bits/new_throw.h \
+  /usr/include/c++/16/bits/ostream.h \
+  /usr/include/c++/16/bits/ostream.tcc \
   /usr/include/c++/16/bits/ostream_insert.h \
+  /usr/include/c++/16/bits/ostream_print.h \
   /usr/include/c++/16/bits/postypes.h \
   /usr/include/c++/16/bits/predefined_ops.h \
   /usr/include/c++/16/bits/ptr_traits.h \
@@ -361,17 +371,22 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/c++/16/bits/stdexcept_except.h \
   /usr/include/c++/16/bits/stdexcept_throw.h \
   /usr/include/c++/16/bits/stdexcept_throwfwd.h \
+  /usr/include/c++/16/bits/stl_algo.h \
   /usr/include/c++/16/bits/stl_algobase.h \
   /usr/include/c++/16/bits/stl_bvector.h \
   /usr/include/c++/16/bits/stl_construct.h \
   /usr/include/c++/16/bits/stl_function.h \
+  /usr/include/c++/16/bits/stl_heap.h \
   /usr/include/c++/16/bits/stl_iterator.h \
   /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/16/bits/stl_iterator_base_types.h \
   /usr/include/c++/16/bits/stl_numeric.h \
   /usr/include/c++/16/bits/stl_pair.h \
+  /usr/include/c++/16/bits/stl_tempbuf.h \
   /usr/include/c++/16/bits/stl_uninitialized.h \
   /usr/include/c++/16/bits/stl_vector.h \
+  /usr/include/c++/16/bits/streambuf.tcc \
+  /usr/include/c++/16/bits/streambuf_iterator.h \
   /usr/include/c++/16/bits/string_view.tcc \
   /usr/include/c++/16/bits/stringfwd.h \
   /usr/include/c++/16/bits/uniform_int_dist.h \
@@ -390,6 +405,7 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/c++/16/cstdio \
   /usr/include/c++/16/cstdlib \
   /usr/include/c++/16/cwchar \
+  /usr/include/c++/16/cwctype \
   /usr/include/c++/16/debug/assertions.h \
   /usr/include/c++/16/debug/debug.h \
   /usr/include/c++/16/exception \
@@ -399,15 +415,21 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/c++/16/ext/string_conversions.h \
   /usr/include/c++/16/ext/type_traits.h \
   /usr/include/c++/16/initializer_list \
+  /usr/include/c++/16/ios \
   /usr/include/c++/16/iosfwd \
+  /usr/include/c++/16/iostream \
+  /usr/include/c++/16/istream \
   /usr/include/c++/16/limits \
   /usr/include/c++/16/new \
   /usr/include/c++/16/numeric \
+  /usr/include/c++/16/ostream \
   /usr/include/c++/16/pstl/execution_defs.h \
+  /usr/include/c++/16/pstl/glue_algorithm_defs.h \
   /usr/include/c++/16/pstl/glue_numeric_defs.h \
   /usr/include/c++/16/pstl/pstl_config.h \
   /usr/include/c++/16/random \
   /usr/include/c++/16/stdexcept \
+  /usr/include/c++/16/streambuf \
   /usr/include/c++/16/string \
   /usr/include/c++/16/string_view \
   /usr/include/c++/16/system_error \
@@ -432,6 +454,8 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h \
@@ -463,6 +487,7 @@ CMakeFiles/output_executable.dir/src/main.cpp.o: /home/username9098/Desktop/Proy
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
@@ -635,12 +660,6 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 
 /usr/lib/Scrt1.o:
 
-/usr/include/c++/16/bits/stl_heap.h:
-
-/usr/include/c++/16/bits/stl_algo.h:
-
-/usr/include/c++/16/algorithm:
-
 /home/username9098/Desktop/Proyectos/zero-copy-num-pipeline/src/pipeline_ops.cpp:
 
 /usr/include/math.h:
@@ -648,6 +667,14 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/opt_random.h:
 
 /usr/include/c++/16/tr1/special_function_util.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
+
+/usr/include/c++/16/tr1/modified_bessel_func.tcc:
+
+/usr/lib/crtn.o:
+
+/usr/include/c++/16/tr1/legendre_function.tcc:
 
 /usr/include/c++/16/bits/requires_hosted.h:
 
@@ -678,6 +705,10 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 /usr/include/c++/16/cerrno:
 
 /usr/include/c++/16/bits/hash_bytes.h:
+
+/usr/include/c++/16/tr1/gamma.tcc:
+
+/usr/include/c++/16/bits/erase_if.h:
 
 /usr/include/c++/16/bits/utility.h:
 
@@ -719,6 +750,10 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 
 /usr/include/c++/16/bit:
 
+/usr/include/c++/16/tr1/ell_integral.tcc:
+
+/usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
 /usr/include/c++/16/bits/alloc_traits.h:
 
 /usr/include/c++/16/backward/binders.h:
@@ -749,10 +784,6 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 
 /usr/include/bits/waitflags.h:
 
-/usr/include/c++/16/bits/stl_tempbuf.h:
-
-/usr/include/ctype.h:
-
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/bits/struct_rwlock.h:
@@ -769,17 +800,21 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 
 /usr/include/bits/types/mbstate_t.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
-
-/usr/include/c++/16/tr1/modified_bessel_func.tcc:
-
 /usr/include/bits/types/locale_t.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/16/bits/stl_tempbuf.h:
 
 /usr/include/c++/16/cctype:
 
 /usr/include/wchar.h:
 
 /usr/include/bits/libc-header-start.h:
+
+/usr/include/c++/16/tr1/exp_integral.tcc:
+
+/usr/include/bits/floatn-common.h:
 
 /usr/include/bits/timex.h:
 
@@ -971,6 +1006,14 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 
 /usr/include/c++/16/bits/stl_function.h:
 
+/usr/include/c++/16/tr1/hypergeometric.tcc:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
 /usr/include/c++/16/ext/numeric_traits.h:
 
 /usr/include/c++/16/bits/stl_iterator.h:
@@ -1013,6 +1056,8 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 
 /usr/include/c++/16/chrono:
 
+/usr/include/c++/16/algorithm:
+
 /usr/include/c++/16/bits/locale_classes.h:
 
 /usr/include/c++/16/concepts:
@@ -1026,14 +1071,6 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 /usr/include/c++/16/ctime:
 
 /usr/include/c++/16/type_traits:
-
-/usr/include/bits/fp-fast.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/usr/include/c++/16/tr1/hypergeometric.tcc:
 
 /usr/include/c++/16/pstl/glue_algorithm_defs.h:
 
@@ -1058,10 +1095,6 @@ CMakeFiles/output_executable.dir/src/benchmark.cpp.o:
 /usr/include/bits/atomic_wide_counter.h:
 
 /usr/include/c++/16/ext/string_conversions.h:
-
-/usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h:
-
-/usr/include/c++/16/tr1/ell_integral.tcc:
 
 /usr/include/bits/thread-shared-types.h:
 
@@ -1114,10 +1147,6 @@ CMakeFiles/output_executable.dir/src/pipeline_ops.cpp.o:
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /usr/include/c++/16/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/c++/16/tr1/exp_integral.tcc:
 
 /usr/include/stdc-predef.h:
 
@@ -1175,6 +1204,10 @@ CMakeFiles/output_executable.dir/src/pipeline_ops.cpp.o:
 
 /usr/include/c++/16/bits/specfun.h:
 
+/usr/include/c++/16/bits/stl_algo.h:
+
+/usr/include/c++/16/bits/stl_heap.h:
+
 /usr/include/c++/16/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/16/bits/stl_numeric.h:
@@ -1186,11 +1219,3 @@ CMakeFiles/output_executable.dir/src/pipeline_ops.cpp.o:
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/16/tr1/bessel_function.tcc:
-
-/usr/include/c++/16/bits/erase_if.h:
-
-/usr/include/c++/16/tr1/gamma.tcc:
-
-/usr/lib/crtn.o:
-
-/usr/include/c++/16/tr1/legendre_function.tcc:
